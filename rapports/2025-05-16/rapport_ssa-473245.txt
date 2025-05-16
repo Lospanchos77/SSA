@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-473245
-Date : 16/05/2025 15:50:57
+Date de publication : 2019-10-08
+Date de génération : 16/05/2025 16:36:15
 Correspondances trouvées :
  - 6ES7155-6AU01-0BN0         * SIMATIC ET 200SP IM 155-6 PN ST (6ES7155-6AU01-0BN0):
              - Affected versions:

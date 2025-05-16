@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-501891
-Date : 16/05/2025 15:50:57
+Date de publication : 2022-10-11
+Date de génération : 16/05/2025 16:36:15
 Correspondances trouvées :
  - 6GK5204-0BA00-2AF2* SCALANCE XF204  (6GK5204-0BA00-2AF2)
   - Affected versions:

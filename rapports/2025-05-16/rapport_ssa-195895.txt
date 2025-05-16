@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-195895
-Date : 16/05/2025 15:50:57
+Date de publication : 2025-02-11
+Date de génération : 16/05/2025 16:36:15
 Correspondances trouvées :
  - 6ES7517-3AP00-0AB0     * SIMATIC S7-1500 CPU 1517-3 PN/DP (6ES7517-3AP00-0AB0):
          - Affected versions:

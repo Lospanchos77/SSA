@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-517377
-Date : 16/05/2025 15:50:57
+Date de publication : 2022-07-12
+Date de génération : 16/05/2025 16:36:15
 Correspondances trouvées :
  - 6GK7543-1AX00-0XE0* SIMATIC CP 1543-1  (6GK7543-1AX00-0XE0)
   - Affected versions:

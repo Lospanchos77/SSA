@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-913875
-Date : 16/05/2025 15:50:58
+Date de publication : 2021-07-13
+Date de génération : 16/05/2025 16:36:16
 Correspondances trouvées :
  - 6GK5722-1FC00-0AA0     * SCALANCE W722-1 RJ45 (6GK5722-1FC00-0AA0):
          - Affected versions:

@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-054046
-Date : 16/05/2025 15:50:57
+Date de publication : 2024-10-08
+Date de génération : 16/05/2025 16:36:14
 Correspondances trouvées :
  - 6ES7510-1DJ01-0AB0     * SIMATIC ET 200SP CPU 1510SP-1 PN (6ES7510-1DJ01-0AB0):
          - Affected versions:

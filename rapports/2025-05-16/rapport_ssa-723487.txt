@@ -1,5 +1,6 @@
 Rapport de correspondance pour : ssa-723487
-Date : 16/05/2025 15:50:58
+Date de publication : 2024-07-09
+Date de génération : 16/05/2025 16:36:16
 Correspondances trouvées :
  - 6GK5208-0BA00-2AC2         * SCALANCE XC208 (6GK5208-0BA00-2AC2):
              - Affected versions:
