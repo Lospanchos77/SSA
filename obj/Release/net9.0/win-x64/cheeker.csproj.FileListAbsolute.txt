@@ -543,3 +543,4 @@ C:\cheeker\obj\Release\net9.0\win-x64\refint\cheeker.dll
 C:\cheeker\obj\Release\net9.0\win-x64\cheeker.pdb
 C:\cheeker\obj\Release\net9.0\win-x64\cheeker.genruntimeconfig.cache
 C:\cheeker\obj\Release\net9.0\win-x64\ref\cheeker.dll
+C:\cheeker\obj\Release\net9.0\win-x64\cheeker.sourcelink.json
