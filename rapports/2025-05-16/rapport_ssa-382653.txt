@@ -1,0 +1,69 @@
+Rapport de correspondance pour : ssa-382653
+Date : 16/05/2025 15:50:57
+Correspondances trouvées :
+ - 6ES7510-1DJ01-0AB0* SIMATIC S7-1500 CPU 1510SP-1 PN  (6ES7510-1DJ01-0AB0)
+  - Affected versions:
+       All versions < V2.9.7
+  - Remediation:
+       Update to V2.9.7 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+
+ - 6ES7516-3AN02-0AB0* SIMATIC S7-1500 CPU 1516-3 PN/DP  (6ES7516-3AN02-0AB0)
+  - Affected versions:
+       All versions < V2.9.7
+  - Remediation:
+       Update to V2.9.7 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+
+ - 6ES7517-3AP00-0AB0* SIMATIC S7-1500 CPU 1517-3 PN/DP  (6ES7517-3AP00-0AB0)
+  - Affected versions:
+       All versions < V3.0.1
+  - Remediation:
+       Update to V3.0.1 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+
+ - 6ES7517-3HP00-0AB0* SIMATIC S7-1500 CPU 1517H-3 PN  (6ES7517-3HP00-0AB0)
+  - Affected versions:
+       All versions < V3.0.1
+  - Remediation:
+       Update to V3.0.1 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+
+ - 6ES7518-4FP00-0AB0* SIMATIC S7-1500 CPU 1518F-4 PN/DP  (6ES7518-4FP00-0AB0)
+  - Affected versions:
+       All versions < V3.0.1
+  - Remediation:
+       Update to V3.0.1 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+
+ - 6ES7518-4JP00-0AB0* SIMATIC S7-1500 CPU 1518HF-4 PN  (6ES7518-4JP00-0AB0)
+  - Affected versions:
+       All versions < V3.0.1
+  - Remediation:
+       Update to V3.0.1 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+

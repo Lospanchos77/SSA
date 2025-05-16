@@ -1,0 +1,23 @@
+Rapport de correspondance pour : ssa-102233
+Date : 16/05/2025 15:50:57
+Correspondances trouvées :
+ - 6GK5204-0BA00-2AF2* SCALANCE XF204  (6GK5204-0BA00-2AF2)
+  - Affected versions:
+       All versions < V5.2.5
+  - Remediation:
+       Update to V5.2.5 or later version
+
+       See further recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109801131/
+
+ - 6GK5208-0BA00-2AF2* SCALANCE XF208  (6GK5208-0BA00-2AF2)
+  - Affected versions:
+       All versions < V5.2.5
+  - Remediation:
+       Update to V5.2.5 or later version
+
+       See further recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109801131/
+

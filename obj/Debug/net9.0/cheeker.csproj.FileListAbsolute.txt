@@ -359,3 +359,4 @@ C:\cheeker\obj\Debug\net9.0\refint\cheeker.dll
 C:\cheeker\obj\Debug\net9.0\cheeker.pdb
 C:\cheeker\obj\Debug\net9.0\cheeker.genruntimeconfig.cache
 C:\cheeker\obj\Debug\net9.0\ref\cheeker.dll
+C:\cheeker\obj\Debug\net9.0\cheeker.sourcelink.json

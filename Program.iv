@@ -1,0 +1,70 @@
+using System;
+using System.IO;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+
+class Program
+{
+    static readonly object writeLock = new();
+    static readonly HttpClient client = new();
+
+    static async Task Main(string[] args)
+    {
+        var knownSerials = File.ReadAllLines("serials.txt");
+        using StreamWriter writer = new("ssa-found.txt", append: true);
+        using StreamWriter log = new("ssa-errors.txt", append: true);
+
+        Console.WriteLine("🚀 Lancement du scan multi-thread...");
+
+        var tasks = new List<int>();
+        for (int i = 0; i <= 999999; i++) tasks.Add(i);
+
+        await Parallel.ForEachAsync(tasks, new ParallelOptions { MaxDegreeOfParallelism = 4000 }, async (i, _) =>
+        {
+            string ssaId = $"ssa-{i:000000}";
+            string url = $"https://cert-portal.siemens.com/productcert/txt/{ssaId}.txt";
+
+            try
+            {
+                string content = await client.GetStringAsync(url);
+                var foundList = new List<string>();
+
+                foreach (var serial in knownSerials)
+                {
+                    if (content.Contains(serial, StringComparison.OrdinalIgnoreCase))
+                        foundList.Add(serial);
+                }
+
+                if (foundList.Count > 0)
+                {
+                    lock (writeLock)
+                    {
+                        foreach (var serial in foundList)
+                            writer.WriteLine($"{ssaId}");
+                        Console.WriteLine($"✅ {ssaId} -> {string.Join(", ", foundList)}");
+                    }
+                }
+            }
+            catch (HttpRequestException e)
+            {
+                lock (writeLock)
+                {
+                    log.WriteLine($"{ssaId} introuvable : {e.Message}");
+                    Console.WriteLine($"❌ {ssaId} non trouvé.");
+                }
+            }
+            catch (Exception ex)
+            {
+                lock (writeLock)
+                {
+                    log.WriteLine($"{ssaId} erreur : {ex.Message}");
+                    Console.WriteLine($"⚠️ {ssaId} -> {ex.Message}");
+                }
+            }
+        });
+
+        Console.WriteLine("✅ Scan terminé. Voir ssa-found.txt et ssa-errors.txt");
+    }
+}

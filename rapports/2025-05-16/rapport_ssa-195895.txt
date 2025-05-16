@@ -1,0 +1,67 @@
+Rapport de correspondance pour : ssa-195895
+Date : 16/05/2025 15:50:57
+Correspondances trouvées :
+ - 6ES7517-3AP00-0AB0     * SIMATIC S7-1500 CPU 1517-3 PN/DP (6ES7517-3AP00-0AB0):
+         - Affected versions:
+                 All versions &gt;= V3.1.0 &lt; V3.1.2
+                    
+         - Remediations:
+                 Update to V3.1.2 or later version
+
+                 Disable HTTP (port 80/tcp) and provide web service access through HTTPS (port
+       443/tcp) only; the vulnerability is considered as only exploitable via
+       HTTP
+
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    
+ - 6ES7517-3HP00-0AB0     * SIMATIC S7-1500 CPU 1517H-3 PN (6ES7517-3HP00-0AB0):
+         - Affected versions:
+                 All versions &gt;= V3.1.0 &lt; V3.1.2
+                    
+         - Remediations:
+                 Update to V3.1.2 or later version
+
+                 Disable HTTP (port 80/tcp) and provide web service access through HTTPS (port
+       443/tcp) only; the vulnerability is considered as only exploitable via
+       HTTP
+
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    
+ - 6ES7518-4FP00-0AB0     * SIMATIC S7-1500 CPU 1518F-4 PN/DP (6ES7518-4FP00-0AB0):
+         - Affected versions:
+                 All versions &gt;= V3.1.0 &lt; V3.1.2
+                    
+         - Remediations:
+                 Update to V3.1.2 or later version
+
+                 Disable HTTP (port 80/tcp) and provide web service access through HTTPS (port
+       443/tcp) only; the vulnerability is considered as only exploitable via
+       HTTP
+
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    
+ - 6ES7518-4JP00-0AB0     * SIMATIC S7-1500 CPU 1518HF-4 PN (6ES7518-4JP00-0AB0):
+         - Affected versions:
+                 All versions &gt;= V3.1.0 &lt; V3.1.2
+                    
+         - Remediations:
+                 Update to V3.1.2 or later version
+
+                 Disable HTTP (port 80/tcp) and provide web service access through HTTPS (port
+       443/tcp) only; the vulnerability is considered as only exploitable via
+       HTTP
+
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    

@@ -1,0 +1,19 @@
+Rapport de correspondance pour : ssa-353002
+Date : 16/05/2025 15:50:57
+Correspondances trouvées :
+ - 6GK5208-0BA00-2AC2 * SCALANCE XC208 (6GK5208-0BA00-2AC2):
+     - Affected versions:
+         All versions
+
+     - Remediation:
+         Currently no fix is planned
+    
+        
+ - 6GK5216-0BA00-2AC2 * SCALANCE XC216 (6GK5216-0BA00-2AC2):
+     - Affected versions:
+         All versions
+
+     - Remediation:
+         Currently no fix is planned
+    
+        
