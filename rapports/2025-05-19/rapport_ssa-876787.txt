@@ -1,0 +1,52 @@
+Rapport de correspondance pour : ssa-876787
+Date de publication : 2024-10-08
+Date de génération : 19/05/2025 09:27:52
+Correspondances trouvées :
+ - 6ES7510-1DJ01-0AB0     * SIMATIC ET 200SP CPU 1510SP-1 PN (6ES7510-1DJ01-0AB0):
+         - Affected versions:
+                 All versions &lt; V2.9.8
+                    
+         - Remediation:
+                 Update to V2.9.8 or later version
+                 See further recommendations from section "Workarounds and Mitigations"
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    
+ - 6ES7516-3AN02-0AB0     * SIMATIC S7-1500 CPU 1516-3 PN/DP (6ES7516-3AN02-0AB0):
+         - Affected versions:
+                 All versions &lt; V2.9.8
+                    
+         - Remediation:
+                 Update to V2.9.8 or later version
+                 See further recommendations from section "Workarounds and Mitigations"
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    
+ - 6ES7517-3AP00-0AB0     * SIMATIC S7-1500 CPU 1517-3 PN/DP (6ES7517-3AP00-0AB0):
+         - Affected versions:
+                 All versions &lt; V3.1.4
+                    
+         - Remediation:
+                 Update to V3.1.4 or later version
+                 See further recommendations from section "Workarounds and Mitigations"
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    
+ - 6ES7518-4FP00-0AB0     * SIMATIC S7-1500 CPU 1518F-4 PN/DP (6ES7518-4FP00-0AB0):
+         - Affected versions:
+                 All versions &lt; V3.1.4
+                    
+         - Remediation:
+                 Update to V3.1.4 or later version
+                 See further recommendations from section "Workarounds and Mitigations"
+         - Download:
+                 https://support.industry.siemens.com/cs/ww/en/view/109478459/
+
+                        
+                    

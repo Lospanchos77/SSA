@@ -1,0 +1,18 @@
+Rapport de correspondance pour : ssa-539476
+Date de publication : 2022-02-08
+Date de génération : 19/05/2025 09:27:51
+Correspondances trouvées :
+ - 6GK7543-1AX00-0XE0* SIMATIC CP 1543-1  (6GK7543-1AX00-0XE0)
+  - Affected versions:
+       All versions < V2.2.28
+    - Affected by vulnerabilities:
+    - CVE-2021-41991
+  - Remediation:
+       Update to V3.0.22 or later version
+
+       Only deploy certificates via TIA portal that got created with TIA portal
+
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109817067/
+
+

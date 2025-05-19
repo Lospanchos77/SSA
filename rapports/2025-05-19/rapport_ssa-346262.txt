@@ -1,0 +1,13 @@
+Rapport de correspondance pour : ssa-346262
+Date de publication : 2017-11-23
+Date de génération : 19/05/2025 09:27:51
+Correspondances trouvées :
+ - 6ES7155-6AU01-0BN0         * SIMATIC ET 200SP IM 155-6 PN ST (6ES7155-6AU01-0BN0):
+             - Affected versions:
+                         All versions
+
+             - Remediation:
+                         Currently no fix is planned
+                         See recommendations from section "Workarounds and Mitigations"
+
+

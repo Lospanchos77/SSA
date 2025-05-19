@@ -1,0 +1,50 @@
+Rapport de correspondance pour : ssa-244969
+Date de publication : 2022-02-08
+Date de génération : 19/05/2025 09:27:51
+Correspondances trouvées :
+ - 6GK5204-0BA00-2AF2* SCALANCE XF204  (6GK5204-0BA00-2AF2)
+  - Affected versions:
+       All versions < V5.2.6
+  - Remediation:
+       Update to V5.2.6 or later version
+
+
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109811753/
+
+ - 6GK5208-0BA00-2AF2* SCALANCE XF208  (6GK5208-0BA00-2AF2)
+  - Affected versions:
+       All versions < V5.2.6
+  - Remediation:
+       Update to V5.2.6 or later version
+
+
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109811753/
+
+ - 6GK5722-1FC00-0AA0* SCALANCE W722-1 RJ45  (6GK5722-1FC00-0AA0)
+  - Affected versions:
+       All versions
+  - Remediation:
+       Currently no fix is planned
+  
+
+
+ - 6GK5774-1FX00-0AA0* SCALANCE W774-1 RJ45  (6GK5774-1FX00-0AA0)
+  - Affected versions:
+       All versions
+  - Remediation:
+       Currently no fix is planned
+  
+
+
+ - 6GK7543-1AX00-0XE0* SIMATIC CP 1543-1  (6GK7543-1AX00-0XE0)
+  - Affected versions:
+       All versions < V3.0.22
+  - Remediation:
+       Update to V3.0.22 or later version
+
+
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109808678/
+

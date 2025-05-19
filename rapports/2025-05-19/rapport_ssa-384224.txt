@@ -1,0 +1,14 @@
+Rapport de correspondance pour : ssa-384224
+Date de publication : 2022-10-11
+Date de génération : 19/05/2025 09:27:51
+Correspondances trouvées :
+ - 6AV2123-2DB03-0AX0* SIMATIC HMI KTP400 Basic  (6AV2123-2DB03-0AX0)
+  - Affected versions:
+       All versions < V17 Update 5
+  - Remediation:
+       Update to V17 Update 5 or later version
+
+       See further recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109746530/
+

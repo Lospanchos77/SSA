@@ -1,0 +1,19 @@
+Rapport de correspondance pour : ssa-593272
+Date de publication : 2020-04-14
+Date de génération : 19/05/2025 09:27:52
+Correspondances trouvées :
+ - 6ES7155-6AU01-0CN0     * SIMATIC ET 200SP IM 155-6 PN/2 HF (6ES7155-6AU01-0CN0):
+         - Affected versions:
+                 All versions &gt;= V4.2.0
+
+         - Remediation:
+                 Currently no fix is planned
+
+ - 6ES7158-3AD10-0XA0 * SIMATIC PN/PN Coupler (6ES7158-3AD10-0XA0):
+     - Affected versions:
+         All versions &gt;= V4.2
+
+     - Remediation:
+         Currently no fix is planned
+    
+        

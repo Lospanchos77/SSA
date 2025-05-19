@@ -1,0 +1,42 @@
+Rapport de correspondance pour : ssa-552702
+Date de publication : 2022-10-11
+Date de génération : 19/05/2025 09:27:51
+Correspondances trouvées :
+ - 6GK5208-0BA00-2AC2* SCALANCE XC208  (6GK5208-0BA00-2AC2)
+  - Affected versions:
+       All versions < V4.4
+  - Remediation:
+       Update to V4.4 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109817768/
+
+
+ - 6GK5216-0BA00-2AC2* SCALANCE XC216  (6GK5216-0BA00-2AC2)
+  - Affected versions:
+       All versions < V4.4
+  - Remediation:
+       Update to V4.4 or later version
+  
+       See recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109817768/
+
+
+ - 6GK5722-1FC00-0AA0* SCALANCE W722-1 RJ45  (6GK5722-1FC00-0AA0)
+  - Affected versions:
+       All versions
+  - Remediation:
+       Currently no fix is planned
+  
+       See recommendations from section "Workarounds and Mitigations"
+
+ - 6GK5774-1FX00-0AA0* SCALANCE W774-1 RJ45  (6GK5774-1FX00-0AA0)
+  - Affected versions:
+       All versions
+  - Remediation:
+       Currently no fix is planned
+  
+       See recommendations from section "Workarounds and Mitigations"
+

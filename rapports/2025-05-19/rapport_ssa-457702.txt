@@ -1,0 +1,20 @@
+Rapport de correspondance pour : ssa-457702
+Date de publication : 2023-11-14
+Date de génération : 19/05/2025 09:27:51
+Correspondances trouvées :
+ - 6GK5722-1FC00-0AA0* SCALANCE W722-1 RJ45 (6GK5722-1FC00-0AA0)
+  - Affected versions:
+       All versions
+  - Remediation:
+       Currently no fix is planned
+
+       See recommendations from section "Workarounds and Mitigations"
+
+ - 6GK5774-1FX00-0AA0* SCALANCE W774-1 RJ45 (6GK5774-1FX00-0AA0)
+  - Affected versions:
+       All versions
+  - Remediation:
+       Currently no fix is planned
+
+       See recommendations from section "Workarounds and Mitigations"
+

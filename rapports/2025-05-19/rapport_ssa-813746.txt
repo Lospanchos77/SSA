@@ -1,0 +1,26 @@
+Rapport de correspondance pour : ssa-813746
+Date de publication : 2023-04-11
+Date de génération : 19/05/2025 09:27:52
+Correspondances trouvées :
+ - 6GK5204-0BA00-2AF2 * SCALANCE XF204 (6GK5204-0BA00-2AF2):
+     - Affected versions:
+         All versions &lt; V5.2.6
+
+     - Remediation:
+         Update to V5.2.6 or later version
+     - Download:
+         https://support.industry.siemens.com/cs/ww/en/view/109811753/
+
+    
+        
+ - 6GK5208-0BA00-2AF2 * SCALANCE XF208 (6GK5208-0BA00-2AF2):
+     - Affected versions:
+         All versions &lt; V5.2.6
+
+     - Remediation:
+         Update to V5.2.6 or later version
+     - Download:
+         https://support.industry.siemens.com/cs/ww/en/view/109811753/
+
+    
+        
