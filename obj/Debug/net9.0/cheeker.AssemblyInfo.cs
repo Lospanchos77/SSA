@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cheeker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0946b091285003dc0e93f5c435224de1e8c0f126")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6da418ed2b7227a35a443822f23c9aeb8a02f6eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("cheeker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cheeker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
