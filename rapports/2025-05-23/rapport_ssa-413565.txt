@@ -1,0 +1,58 @@
+Rapport de correspondance pour : ssa-413565
+Date de publication : 2022-12-13
+Date de génération : 23/05/2025 15:40:10
+Correspondances trouvées :
+ - 6GK5208-0BA00-2AC2         * SCALANCE XC208 (6GK5208-0BA00-2AC2):
+             - Affected versions:
+                         All versions &lt; V4.4
+                 - Affected by vulnerabilities:
+                              CVE-2022-46140 
+                              CVE-2022-46142 
+                              CVE-2022-46143 
+
+
+             - Remediation:
+                         Update to V4.4 or later version
+             - Download:
+                         https://support.industry.siemens.com/cs/ww/en/view/109817768/
+
+
+ - 6GK5216-0BA00-2AC2         * SCALANCE XC216 (6GK5216-0BA00-2AC2):
+             - Affected versions:
+                         All versions &lt; V4.4
+                 - Affected by vulnerabilities:
+                              CVE-2022-46140 
+                              CVE-2022-46142 
+                              CVE-2022-46143 
+
+
+             - Remediation:
+                         Update to V4.4 or later version
+             - Download:
+                         https://support.industry.siemens.com/cs/ww/en/view/109817768/
+
+
+ - 6GK5722-1FC00-0AA0     * SCALANCE W722-1 RJ45 (6GK5722-1FC00-0AA0):
+         - Affected versions:
+                 All versions
+         - Affected by vulnerabilities:
+                      CVE-2022-46140 
+                      CVE-2022-46142 
+                      CVE-2022-46143 
+
+
+         - Remediation:
+                 Currently no fix is planned
+
+ - 6GK5774-1FX00-0AA0     * SCALANCE W774-1 RJ45 (6GK5774-1FX00-0AA0):
+         - Affected versions:
+                 All versions
+         - Affected by vulnerabilities:
+                      CVE-2022-46140 
+                      CVE-2022-46142 
+                      CVE-2022-46143 
+
+
+         - Remediation:
+                 Currently no fix is planned
+

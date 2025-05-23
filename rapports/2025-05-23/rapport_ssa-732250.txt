@@ -1,0 +1,14 @@
+Rapport de correspondance pour : ssa-732250
+Date de publication : 2022-05-10
+Date de génération : 23/05/2025 15:40:11
+Correspondances trouvées :
+ - 6GK7543-1AX00-0XE0* SIMATIC CP 1543-1  (6GK7543-1AX00-0XE0)
+  - Affected versions:
+       All versions < V3.0.22
+  - Remediation:
+       Update to V3.0.22 or later version
+
+
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109808678
+

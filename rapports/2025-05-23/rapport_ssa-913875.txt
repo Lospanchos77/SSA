@@ -1,0 +1,44 @@
+Rapport de correspondance pour : ssa-913875
+Date de publication : 2021-07-13
+Date de génération : 23/05/2025 15:40:11
+Correspondances trouvées :
+ - 6GK5722-1FC00-0AA0     * SCALANCE W722-1 RJ45 (6GK5722-1FC00-0AA0):
+         - Affected versions:
+                 All versions
+         - Affected by vulnerabilities:
+                      CVE-2020-24588
+                      CVE-2020-26139
+                      CVE-2020-26140
+                      CVE-2020-26141
+                      CVE-2020-26143
+                      CVE-2020-26144
+                      CVE-2020-26146
+                      CVE-2020-26147
+
+                    
+         - Remediation:
+                 Currently no fix is planned
+                 See recommendations from section "Workarounds and Mitigations"
+
+                        
+                    
+ - 6GK5774-1FX00-0AA0     * SCALANCE W774-1 RJ45 (6GK5774-1FX00-0AA0):
+         - Affected versions:
+                 All versions
+         - Affected by vulnerabilities:
+                      CVE-2020-24588
+                      CVE-2020-26139
+                      CVE-2020-26140
+                      CVE-2020-26141
+                      CVE-2020-26143
+                      CVE-2020-26144
+                      CVE-2020-26146
+                      CVE-2020-26147
+
+                    
+         - Remediation:
+                 Currently no fix is planned
+                 See recommendations from section "Workarounds and Mitigations"
+
+                        
+                    

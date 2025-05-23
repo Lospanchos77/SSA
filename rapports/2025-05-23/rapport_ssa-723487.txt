@@ -1,0 +1,40 @@
+Rapport de correspondance pour : ssa-723487
+Date de publication : 2024-07-09
+Date de génération : 23/05/2025 15:40:11
+Correspondances trouvées :
+ - 6GK5208-0BA00-2AC2         * SCALANCE XC208 (6GK5208-0BA00-2AC2):
+             - Affected versions:
+                         All versions
+
+             - Remediation:
+                         Currently no fix is available
+                         See recommendations from section "Workarounds and Mitigations"
+
+
+ - 6GK5216-0BA00-2AC2         * SCALANCE XC216 (6GK5216-0BA00-2AC2):
+             - Affected versions:
+                         All versions
+
+             - Remediation:
+                         Currently no fix is available
+                         See recommendations from section "Workarounds and Mitigations"
+
+
+ - 6GK5722-1FC00-0AA0     * SCALANCE W722-1 RJ45 (6GK5722-1FC00-0AA0):
+         - Affected versions:
+                 All versions
+
+         - Remediation:
+                 Currently no fix is available
+                 See recommendations from section "Workarounds and Mitigations"
+
+
+ - 6GK5774-1FX00-0AA0     * SCALANCE W774-1 RJ45 (6GK5774-1FX00-0AA0):
+         - Affected versions:
+                 All versions
+
+         - Remediation:
+                 Currently no fix is available
+                 See recommendations from section "Workarounds and Mitigations"
+
+

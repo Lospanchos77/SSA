@@ -1,0 +1,28 @@
+Rapport de correspondance pour : ssa-168644
+Date de publication : 2018-02-22
+Date de génération : 23/05/2025 15:40:10
+Correspondances trouvées :
+ - 6AV2124-0QC02-0AX16AV2124-0QC02-0AX1, 6AG1124-0QC02-4AX1, 6AV2124-1QC02-0AX1,
+
+6AG1124-1QC02-4AX1, 6AV2124-0UC02-0AX1, 6AG1124-0UC02-4AX1,
+
+6AV2124-0XC02-0AX1, 6AG1124-0XC02-4AX1) 
+
+  - Affected versions:
+
+       All versions with SIMATIC WinCC V14 < V14 SP1 Upd 6
+
+  - Remediation:
+
+       Update to SIMATIC WinCC V14 SP1 Upd 6 to mitigate risks in browsers, and
+
+       follow recommendations from section Workarounds and Mitigations to
+
+       mitigate risks from running untrusted code.
+
+  - Download:
+
+       https://support.industry.siemens.com/cs/ao/en/view/109747387
+
+
+

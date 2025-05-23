@@ -41,7 +41,6 @@ class Program
                 continue;
             }
 
-            // 🔍 Extraction de la date de publication
             string publishedDate = "";
             foreach (var line in remoteText.Split('\n'))
             {
@@ -119,7 +118,6 @@ class Program
             }
         }
 
-        // Regroupement par SSA unique → garde la dernière version si relancé
         var allEntries = new Dictionary<string, (string dateKey, string href, string serials, string published)>();
 
         foreach (var entry in htmlEntries)
@@ -129,7 +127,7 @@ class Program
             string href = parts[1];
             string serials = parts[2];
             string published = parts.Length > 3 ? parts[3] : "";
-            string dateFolderName = href.Split('/')[1]; // ex: 2025-05-14
+            string dateFolderName = href.Split('/')[1];
 
             allEntries[ssa] = (dateFolderName, href, serials, published);
         }
@@ -144,10 +142,38 @@ class Program
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Rapports Siemens</title>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <script>
+    function checkSerial() {
+        const input = document.getElementById('serialInput').value.trim().toUpperCase();
+        const results = [];
+        document.querySelectorAll('.ssa-block').forEach(block => {
+            const seriesText = block.dataset.series;
+            if (seriesText.includes(input)) {
+                results.push(block.outerHTML);
+            }
+        });
+        const resultBox = document.getElementById('searchResults');
+        if (results.length > 0) {
+            resultBox.innerHTML = '<h4>Résultat :</h4>' + results.join('');
+        } else {
+            resultBox.innerHTML = `<div class='alert alert-warning'>❌ Aucun SSA ne référence le numéro <code>${input}</code></div>`;
+        }
+    }
+    </script>
 </head>
 <body class='bg-light'>
     <div class='container mt-5'>
         <h1 class='mb-4 text-center'>📋 Rapports Siemens par date</h1>
+
+        <div class='mb-4'>
+            <label for='serialInput' class='form-label'>🔍 Vérifier un numéro de série :</label>
+            <div class='input-group'>
+                <input type='text' id='serialInput' class='form-control' placeholder='Ex: 6ES7510-1DJ01-0AB0'>
+                <button class='btn btn-primary' onclick='checkSerial()'>Vérifier</button>
+            </div>
+        </div>
+        <div id='searchResults' class='mt-4'></div>
+        <hr>
 ");
 
         var groupedByDate = allEntries.Values
@@ -162,10 +188,16 @@ class Program
             foreach (var (dateKey, href, serials, published) in group.OrderBy(x => x.href))
             {
                 string ssa = Path.GetFileNameWithoutExtension(href).Replace("rapport_", "").ToUpperInvariant();
+                int count = string.IsNullOrWhiteSpace(serials) ? 0 : serials.Split(',').Length;
+
                 indexWriter.WriteLine($@"
-<li class='list-group-item'>
+<li class='list-group-item ssa-block' data-series='{serials.ToUpper()}'>
   <a href='{href}' target='_blank'>{ssa}</a><br>
-  <small class='text-muted'>📆 Publié le : {published}<br>🔢 Séries : {serials}</small>
+  <small class='text-muted'>
+    📆 Publié le : {published}<br>
+    🔢 {count} série(s) trouvée(s)<br>
+    → {serials}
+  </small>
 </li>");
             }
 

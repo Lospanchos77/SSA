@@ -1,0 +1,14 @@
+Rapport de correspondance pour : ssa-462066
+Date de publication : 2019-09-10
+Date de génération : 23/05/2025 15:40:10
+Correspondances trouvées :
+ - 6GK7543-1AX00-0XE0* SIMATIC CP 1543-1  (6GK7543-1AX00-0XE0)
+  - Affected versions:
+       All versions < V2.2
+  - Remediation:
+       Update to V2.2 or later version
+
+       See further recommendations from section "Workarounds and Mitigations"
+  - Download:
+       https://support.industry.siemens.com/cs/ww/en/view/109775642
+
